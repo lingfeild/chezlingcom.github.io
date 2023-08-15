@@ -1,0 +1,228 @@
+/* Avaliable css for payment page
+
+#ctl-form-wrap {}
+  .text-group {}
+
+  .group-1 {}
+    #wrapper_purchase_instrument_brand {}
+    .field_wrapper {}
+      .purchase_instrument_brand {}
+      .error_msg {}
+
+    #wrapper_purchase_instrument_number {}
+    .field_wrapper {}
+      #purchase_instrument_number {}
+      .error_msg {}
+
+    #wrapper_purchase_instrument_expiry {}
+    .field_wrapper {}
+      .purchase_instrument_expiry {}
+      .purchase_instrument_expiry_month {}
+      .purchase_instrument_expiry_year {}
+      .error_msg {}
+
+    #wrapper_purchase_instrument_cvv {}
+    .field_wrapper {}
+      .purchase_instrument_cvv {}
+      .error_msg {}
+
+
+  .group-2 {}
+    #wrapper_firstname {}
+    .field_wrapper {}
+      .firstname {}
+      .error_msg {}
+
+    #wrapper_lastname {}
+    .field_wrapper {}
+      .lastname {}
+      .error_msg {}
+
+    #wrapper_street {}
+    .field_wrapper {}
+      .street {}
+      .error_msg {}
+
+    #wrapper_city {}
+    .field_wrapper {}
+      .city {}
+      .error_msg {}
+
+    #wrapper_state {}
+    .field_wrapper {}
+      .state {}
+      .error_msg {}
+
+    #wrapper_country {}
+    .field_wrapper {}
+      .country {}
+      .error_msg {}
+
+    #wrapper_zip {}
+    .field_wrapper {}
+      .zip {}
+      .error_msg {}
+
+
+  .group-3 {}
+    #wrapper_submit_btn {}
+      .style1 {}
+      .ajax-loader
+*/
+
+#ctl-form-wrap {
+  padding-bottom: 30px;
+  margin-bottom: 60px;
+  font-family: "Exo", sans-serif;
+}
+
+#ctl-form-wrap .text-group {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  font-weight: 700;
+  padding: 0 20px;
+}
+
+#ctl-form-wrap .group-1,
+#ctl-form-wrap .group-2,
+#ctl-form-wrap .group-3 {
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#ctl-form-wrap .group-1>div,
+#ctl-form-wrap .group-2>div,
+#ctl-form-wrap .group-3>div {
+  display: inline-grid;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+#ctl-form-wrap .group-1>div>label,
+#ctl-form-wrap .group-2>div>label,
+#ctl-form-wrap .group-3>div>label {
+  font-size: 1.3em;
+  font-weight: normal;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+#ctl-form-wrap select,
+#ctl-form-wrap input {
+  height: 50px;
+  border: 1px solid #ddd;
+}
+
+#ctl-form-wrap select {
+  background: #fff;
+}
+
+#ctl-form-wrap input {
+  border-radius: 5px;
+}
+
+#wrapper_purchase_instrument_expiry {
+  display: inline-block !important;
+}
+
+#wrapper_purchase_instrument_expiry select {
+  width: 47%;
+}
+
+#wrapper_submit_btn .style1 {
+  height: auto;
+  weight: auto;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 20px 60px;
+  border: none;
+  color: #fff;
+  background-color: #1868dd;
+  border-radius: 50px;
+}
+
+#wrapper_submit_btn .style1:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 991px) {
+  #wrapper_purchase_instrument_expiry select {
+    width: 46%;
+  }
+}
+
+@media (max-width: 767px) {
+  #wrapper_purchase_instrument_expiry select {
+    width: 46%;
+  }
+}
+
+
+/*  css for cart.html
+#cartArea
+  .header-cart-item-txt
+    .header-cart-item-name
+      a
+
+    .header-cart-item-info
+    span
+      button
+
+  .product-total
+  span
+*/
+
+#cartArea {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+}
+
+.header-cart-item-txt,
+.product-total {
+  font-size: 1.3em;
+  font-weight: normal;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.header-cart-item-txt {
+  margin-bottom: 20px;
+}
+
+.header-cart-item-info {
+  display: inline-flex;
+}
+
+.header-cart-item-info button {
+  margin-left: 15px;
+  background-color: #fff;
+  width: 21px;
+  height: 21px;
+  color: #c0392b;
+  border: 1px solid #c0392b;
+  border-radius: 3px;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+@media (max-width: 991px) {
+  .header-cart-item-info button {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-cart-item-info button {
+    margin-left: 0;
+  }
+}
+
+/* extra */
+
+.proceed-to-payment {
+  position: relative;
+  padding-bottom: 0px;
+  padding-top: 100px;
+  text-align: center;
+}

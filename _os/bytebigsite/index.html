@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Cryptocurrency Landing Page HTML5 Template">
+  <meta name="keywords" content="Cryptocurrency, bitcoin, bitcoin landing, blockchain, crypto trading ">
+  <meta name="author" content="BCM">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.bytebigsite.com</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Goole Font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/assets/bootstrap.min.css">
+  <!-- Font awsome CSS -->
+  <link rel="stylesheet" href="css/assets/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/flaticon.css">
+  <!-- popup-->
+  <link rel="stylesheet" href="css/assets/magnific-popup.css">
+  <link rel="stylesheet" href="css/assets/owl.carousel.css">
+  <link rel="stylesheet" href="css/assets/owl.theme.css">
+  <link rel="stylesheet" href="css/assets/jquery.countdown.css">
+  <link rel="stylesheet" href="css/assets/animate.css">
+  <!-- preloader css-->
+  <link rel="stylesheet" href="css/assets/preloader.css">
+  <!-- main style-->
+  <link rel="stylesheet" href="sass/build/css/main.css">
+  <link rel="stylesheet" href="css/cryptonio.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/jquery.formShowHide.min.js"></script>
+
+
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+  <script>
+    var $j = jQuery.noConflict(true);
+  </script>
+
+  <script language="javascript">
+    var USDEXCH;
+    var EUREXCH;
+
+    function radialcolour(number) {
+
+      if (number == 1) {
+        document.getElementById("tier1").style.borderColor = "#699B47";
+        document.getElementById("tier2").style.borderColor = "#BDC3C7";
+        document.getElementById("tier3").style.borderColor = "#BDC3C7";
+      }
+
+      if (number == 2) {
+        document.getElementById("tier2").style.borderColor = "#699B47";
+        document.getElementById("tier1").style.borderColor = "#BDC3C7";
+        document.getElementById("tier3").style.borderColor = "#BDC3C7";
+      }
+
+      if (number == 3) {
+        document.getElementById("tier3").style.borderColor = "#699B47";
+        document.getElementById("tier2").style.borderColor = "#BDC3C7";
+        document.getElementById("tier1").style.borderColor = "#BDC3C7";
+      }
+
+    }
+  </script>
+
+</head>
+
+<body class="body_06">
+  <!-- Preloader -->
+  <!-- <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div> -->
+  <header id="header-06" class="header">
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light bg-faded cripto_nav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link"><span id="exchangetop"></span></a></li>
+            <li class="nav-item"><a data-scroll href="#header-06" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a data-scroll href="#about_cryptonic_06" class="nav-link">How we work</a></li>
+            <li class="nav-item"><a data-scroll href="#best_feature_06" class="nav-link">Packages</a></li>
+
+            <li class="nav-item"><a data-scroll href="#faq-area-06" class="nav-link">Faq</a></li>
+            <li class="nav-item"><a data-scroll href="#contact_06" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="language">
+          <a href="signup.html" class="token active">Sign Up</a>
+          <a href="user-login.html" class="token">Login</a>
+        </div>
+      </div>
+    </nav><!-- END NAVBAR -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-6">
+          <div class="intro-text">
+            <h1>Cryptocurrency is changing the landscape of how we use money</h1>
+            <p>Offering crypto enthusiasts around the world a safe and easy way to join the bitcoin cash revolution.</p>
+            <!--  <div class="btn_video_wrapper">
+                        <a href="#" class="btn btn-default btn-default-style">Learn more</a>                     
+                    </div> -->
+            <div class="countdown_time">
+              <h3>Buy Bitcoin Cash Today</h3>
+              <div class="clock-countdown">
+                <div class="site-config"></div>
+                <div class="coundown-timer d-flex justify-content-center">
+                  <div class="single-counter  d-flex flex-column">
+                    <h4>
+                      <span class="days count-time gradient-color">
+                        <select name="currencyz" id="currencyz" placeholder="Select Currency">
+                          <option value="1">USD</option>
+                          <option value="2">EUR</option>
+                        </select>
+                      </span>
+                    </h4>
+                  </div>
+                  <div class="single-counter  d-flex flex-column">
+                    <h4>
+                      <span class="days count-time gradient-color">
+                        <input type="" name="currency_number" id="currency_number" value="">
+                      </span>
+                    </h4>
+                  </div>
+                  <div class="single-counter  d-flex flex-column">
+                    <h4>
+                      <span class="days count-time gradient-color">
+                        <select name="currencyz" id="currencyz" placeholder="Select Currency">
+                          <option value="1">BTC</option>
+                        </select>
+                      </span>
+                    </h4>
+                  </div>
+                  <div class="single-counter  d-flex flex-column">
+                    <h4>
+                      <span class="days count-time gradient-color">
+                        <input type="" name="btc_numberz" id="btc_numberz" value="1">
+                      </span>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="count-time_btn">
+                <a href="signup.html" title="" class="gradient-color"><span>Buy Now</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 img-wrapper">
+          <div class="intro-img">
+            <div class="bounce_wrapper">
+              <img src="images/header-06.png" alt="">
+              <div class="shape-1">
+                <div class="box bounce-1"><img src="images/bounce/header1_b.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/header6_shape_1.png" alt=""></span>
+    <span class="shape2 header-shape"><img src="images/shape/home_6/header6_shape_2.png" alt=""></span>
+    <span class="shape3 header-shape"><img src="images/shape/home_6/header6_shape_3.png" alt=""></span>
+    <span class="shape4 header-shape "><img src="images/shape/home_6/header6_shape_4.png" alt=""></span>
+    <span class="shape5 header-shape"><img src="images/shape/home_6/header6_shape_5.png" alt=""></span>
+    <span class="shape6 header-shape"><img src="images/shape/home_6/header6_shape_6.png" alt=""></span>
+
+    <span class="bubble1 header-shape"><img src="images/particals_icon/fixed1.png" alt=""></span>
+    <span class="bubble2 header-shape"><img src="images/particals_icon/fixed1.png" alt=""></span>
+    <span class="bubble3 header-shape"><img src="images/particals_icon/fixed2.png" alt=""></span>
+    <span class="bubble4 header-shape"><img src="images/particals_icon/fixed4.png" alt=""></span>
+
+    <div id="particles1-js" class="particles"></div>
+  </header> <!-- End Header -->
+
+  <section id="about_cryptonic_06">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-7 col-lg-5 padding-none">
+          <div class="about_cryptonic-content">
+            <h2 class=" wow fadeInUp" data-animate="fadeInUp" data-delay="0.2s">How We Work</h2>
+            <p class=" wow fadeInUp" data-animate="fadeInUp" data-delay="0.3s">Getting started with bitcoin cash seems
+              like a big step, but with help from the experts and the seamless buying process at Cryptonio, you’ll be on
+              your way in no time. We help facilitate the purchase of bitcoin cash using secure servers and processors
+              that ensure our clients get their bitcoin cash on time and don’t compromise their identity in the process.
+            </p>
+
+            <p class=" wow fadeInUp" data-animate="fadeInUp" data-delay="0.4s">To buy your bitcoin cash, simply set up
+              an account by submitting the proper documentation – a copy of a government-issued ID, a utility bill with
+              a corresponding address, a valid credit card number and your bitcoin cash wallet address. Choose your
+              purchasing level after being contacted by one of our representatives and you’ll be able to start
+              purchasing bitcoin cash. This innovative and collaborative digital currency is accepted at both online and
+              brick-and-mortar retailers across the world. Pay friends, buy goods and services and invest your money
+              where it matters.</p>
+            <!-- <a href="#" class="btn btn-default btn-default-style wow fadeInUp" data-animate="fadeInUp" data-delay="0.5s">Download Whitepaper</a> -->
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-5 col-lg-7">
+          <div class="about-img">
+            <div class="img-wrapper">
+              <img src="images/index-about.png" alt="" class="wow fadeInUp" data-animate="fadeInUp" data-delay=".3s">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/about-light-1.png" alt=""></span>
+    <span class="shape2 header-shape"><img src="images/shape/home_6/about-light-2.png" alt=""></span>
+    <span class="bubble1 header-shape"><img src="images/particals_icon/fixed1.png" alt=""></span>
+    <span class="bubble2 header-shape"><img src="images/particals_icon/fixed2.png" alt=""></span>
+    <span class="bubble3 header-shape"><img src="images/particals_icon/fixed3.png" alt=""></span>
+    <div id="particles3-js" class="particles"></div>
+  </section> <!-- End about_cryptonic -->
+
+
+  <section id="best_feature_06">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="sub-title">
+            <h6>Bitcoin Cash</h6>
+            <h2>Best Features</h2>
+            <p>Many people have wondered why Bitcoin needed to branch out and create another branch of cryptocurrency,
+              but when faced with the facts, it makes a lot of sense.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row feature_items d-flex justify-content-between">
+        <div class="col-sm-12 col-md-6 col-lg-4 single-wrapper">
+          <div class="single-items wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
+            <h3>Faster Transactions</h3>
+            <img src="images/icons/feature-01.png" alt="">
+            <p>processed at a faster speed, meaning BCH users will be able to make payments and accept bitcoin cash
+              quicker than ever before. </p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 single-wrapper">
+          <div class="single-items wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+            <h3>Secure Networks</h3>
+            <img src="images/icons/feature-02.png" alt="">
+            <p>Since the year it was first launched, miners and developers have learned the ins and outs of how to take
+              full advantage of the robust blockchain technology, making buying and selling bitcoin cash incredibly
+              secure.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 single-wrapper">
+          <div class="single-items wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+            <h3>Completely Decentralized</h3>
+            <img src="images/icons/feature-03.png" alt="">
+            <p>As with original bitcoin, bitcoin cash is still completely decentralized from banks and governments,
+              making it a more independent, autonomous and nonpartisan way to keep and spend your hard-earned money.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/feature-1.png" alt=""></span>
+    <div id="particles4-js" class="particles"></div>
+  </section> <!-- End best_feature -->
+
+  <section id="token_sale_06">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="sub-title">
+            <h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">Bitcoin Cash Buying Categories</h2>
+            <h6 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">Get the right amount of bitcoin cash
+              for your needs. We try as hard as we can to satisfy your needs as a client, which is why we broke down our
+              buying categories into three distinct levels – beginner, intermediate and expert. Choose the one that best
+              fits your budget and start buying!</h6>
+
+          </div>
+        </div>
+      </div>
+      <div class="row pricing_items">
+        <div class="col-sm-12 col-md-4 col-lg-4 single-wrapper wow fadeInUp" data-wow-duration="2s"
+          data-wow-delay=".2s">
+          <div class="pricing_single">
+
+            <div class="offer_details">
+              <h3>Beginnner</h3>
+              <span>Our beginner package starts at a $200 USD daily limit with a monthly cap of $1,000 USD, making it
+                great for a newcomer.</span>
+
+              <p>Daily: $200</p>
+            </div>
+            <div class="sale">
+              <a href="" title="">Monthly: $1,000</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 single-wrapper wow fadeInUp" data-wow-duration="2s"
+          data-wow-delay=".2s">
+          <div class="pricing_single">
+            <div class="offer_price">
+              <h4>Most Popular<span class="shape_1"></span></h4>
+            </div>
+            <div class="offer_details">
+              <h3>Intermediate</h3>
+              <span>Arguably our most popular package, the intermediate level offers a daily limit of $1,000 USD and a
+                monthly limit of $5,000 USD.</span>
+
+              <p>Daily: $200</p>
+            </div>
+            <div class="sale">
+              <a href="" title="">Monthly: $5,000</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 single-wrapper wow fadeInUp" data-wow-duration="2s"
+          data-wow-delay=".2s">
+          <div class="pricing_single">
+
+            <div class="offer_details">
+              <h3>Pro</h3>
+              <span>If you feel like you are a bitcoin cash expert, our pro package offers a daily limit of $1,000 USD
+                with a higher monthly cap of $10,000 USD.</span>
+
+              <p>Daily: $200</p>
+            </div>
+            <div class="sale">
+              <a href="" title="">Monthly: $10,000</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/token_sale.png" alt=""></span>
+    <span class="shape2 header-shape"><img src="images/shape/home_6/token_sale_1.png" alt=""></span>
+    <span class="bubble1 header-shape"><img src="images/particals_icon/fixed1.png" alt=""></span>
+    <span class="bubble2 header-shape"><img src="images/particals_icon/fixed1.png" alt=""></span>
+    <span class="bubble4 header-shape"><img src="images/particals_icon/fixed3.png" alt=""></span>
+    <div id="particles5-js" class="particles"></div>
+  </section> <!-- End token_sale -->
+
+  <section id="faq-area-06" class="faq-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="sub-title">
+            <h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">Frequently Asked Questions</h2>
+            <!-- <p class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">Artificial based on the neural network, the NRM assistant will instantly analyze user data use.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <div class="faq-img wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+            <img src="images/fap-01.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <div class="faq-wrapper">
+            <!--Accordion wrapper-->
+            <div class="panel-group accordion-wrapper" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel accordion-single accordion-01  wow fadeInUp" data-wow-duration="2s"
+                data-wow-delay=".2s">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">
+                      Is bitcoin cash different from bitcoin?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="card-body  accordion-content">
+                    <p>Yes! Bitcoin cash is the result of a series of limitations in the original bitcoin theorem,
+                      including a limited worldwide supply and inefficient block sizes. Bitcoin cash ensures that the
+                      cryptocurrency will continue to grow and flourish.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-single accordion-02  wow fadeInUp" data-wow-duration="2s"
+                data-wow-delay=".3s">
+                <div class="panel-heading active" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      Why should I buy bitcoin cash?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse  in show" role="tabpanel"
+                  aria-labelledby="headingOne">
+                  <div class="card-body  accordion-content">
+                    <p>Bitcoin cash is one of the most accessible currencies around the world, and you can send it to
+                      anyone, anywhere, at any time. It allows you to remain autonomous from banks and helps ensure that
+                      your privacy remains top priority.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-single accordion-03  wow fadeInUp" data-wow-duration="2s"
+                data-wow-delay=".4s">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                      How is bitcoin cash created?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="card-body  accordion-content">
+                    <p>Bitcoin cash, like bitcoin, is mined by miners across the world. Miners usually possess very fast
+                      and powerful computers that auto-complete complicated math equations every time someone makes a
+                      transaction, adding blocks to the blockchain and creating more bitcoin cash.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-single accordion-03  wow fadeInUp" data-wow-duration="2s"
+                data-wow-delay=".5s">
+                <div class="panel-heading" role="tab" id="headingfour">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour"
+                      aria-expanded="false" aria-controls="collapsefour">
+                      How do I get started?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+                  <div class="card-body  accordion-content">
+                    <p>Buy bitcoin cash with Big Byte! Once you start, you’ll see how beneficial owning bitcoin cash is.
+                      It’s easy to use, has followers across the globe, is more private and secure than any other
+                      currency and allows you to remain independent. Get started today!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="particles10-js" class="particles"></div>
+  </section><!-- End faq-area -->
+
+  <section id="contact_06">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="address_wrapper">
+            <div class="sub-title">
+              <h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">Get in touch!</h2>
+            </div>
+            <div class="contact-info-wrapper">
+              <div class="contact-info">
+                <div class="single-list wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <div class="title_caption">
+                    <span>If you have any questions about bitcoin cash, need to discuss a customer service issue or
+                      simply want more information about what we do and how we do it, send us a quick message and a BCH
+                      expert will get back to you as soon as possible!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="contact_form">
+            <form action="" method="post" class="contactForm" id="contact-form">
+              <div class="row">
+                <div class="col-md-6 col-sm-12  form-group  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <input type="text" class="form-control" id="fullname" placeholder="Your Name">
+                </div>
+
+                <div class="col-md-6 col-sm-12  form-group  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
+                  <input type="email" class="form-control person-email" id="email2" placeholder="E-mail Address">
+                </div>
+                <div class="col-12 col-sm-12  form-group  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <input type="text" class="form-control" id="subject" placeholder="Subject">
+                </div>
+                <div class="col-12 col-sm-12 form-group  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                  <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                </div>
+                <div class="col-6 col-sm-6  form-group  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <label class="captcha-contact">
+                    <div style="margin: auto;" id="captcha"></div>
+                  </label>
+                </div>
+                <div class="col-6 col-sm-6  form-group  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <input name="verification2" id="verification2" type="input" placeholder="Enter captcha"
+                    class="login-input">
+                </div>
+                <div style="display:none">
+                  <input id="email3" type="email" placeholder="Enter email" name="email3">
+                </div>
+                <div class="col-12 col-sm-12 form-group">
+                  <div class="submit-btn  wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                    <input type="submit" value="Send Message" id="contact-submit">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="particles11-js" class="particles"></div>
+  </section><!-- End contact -->
+
+
+  <footer id="footer-06" class="footer">
+
+    <div class="copyright">
+
+      <p><a style="color:white" href="privacy.html">Privacy</a> | <a style="color:white"
+          href="terms-of-service.html">Terms of service</a><br /><br />
+        &copy; www.bytebigsite.com <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+
+
+    </div>
+    <span class="shape1 header-shape"><img src="images/shape/home_6/footer_shape_1.png" alt=""></span>
+    <span class="shape2 header-shape"><img src="images/shape/home_6/footer_shape_2.png" alt=""></span>
+    <span class="shape3 header-shape"><img src="images/shape/home_6/footer_shape_3.png" alt=""></span>
+  </footer><!-- ./ End Footer Area-->
+
+  <!-- JavaScript Files -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/bootstrap-4.1.3.js"></script>
+  <script src="js/assets/popper.min.js"></script>
+  <script src="js/assets/owl.carousel.min.js"></script>
+  <script src="js/assets/jquery.sticky.js"></script>
+  <script src="js/assets/isotope.pkgd.min.js"></script>
+  <script src="js/assets/jquery.magnific-popup.min.js"></script>
+  <script src="js/assets/jquery.downCount2.js"></script>
+  <script src="js/assets/jquery.countdown.js"></script>
+  <script src="js/assets/particles.js"></script>
+  <script src="js/assets/app.js"></script>
+  <script src="js/assets/smooth-scroll.js"></script>
+  <script src="js/assets/wow.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <!--  Backend -->
+
+  <script src="backendfiles/js/exchange.js"></script>
+  <script src="backendfiles/js/contact.js"></script>
+  <script src="backendfiles/js/new_user_validation.js"></script>
+
+  <!--  CAPTCHA -->
+  <script language="javascript">
+    var sum2 = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    for (var i = 0; i < 5; i++) {
+      sum2 += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+    document.getElementById("captcha").innerHTML = sum2;
+  </script>
+
+  <!--  FOR EXCHANGE RATE -->
+  <script language="javascript">
+    var sum = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    for (var i = 0; i < 5; i++) {
+      sum += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+
+    document.getElementById("test").innerHTML = sum;
+
+    var is_vip = false;
+  </script>
+
+</body>
+
+</html>

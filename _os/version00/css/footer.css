@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+/* ----------Print---------- */
+#agenda{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_01.jpg);
+}
+
+#hummer{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_03.jpg);
+}
+
+#smart02{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_05.jpg);
+}
+
+#drill{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_07.jpg);
+}
+
+#balloon{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_09.jpg);
+}
+
+#bag{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_11.jpg);
+}
+
+#lucas{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_18.jpg);
+}
+
+#smart01{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_19.jpg);
+}
+
+#disco{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_20.jpg);
+}
+
+#euro{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_21.jpg);
+}
+
+#dvd{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_22.jpg);
+}
+
+#icream{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_23.jpg);
+}
+
+#rtc{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/footer_24.jpg);
+}
+/* ----------web---------- */
+#blb{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/w_blb.jpg);
+}
+
+#mask{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/w_mask.jpg);
+}
+
+#robot{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/w_robot.jpg);
+}
+
+#banner{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/w_banner.jpg);
+}
+/* ----------photo---------- */
+#amoi{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/ph_118_amoi.jpg);
+}
+
+#tour{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/ph_118_tour.jpg);
+}
+
+#farm{
+	position:absolute;
+	width:118px;
+	height:118px;
+	background-image:url(../images/ph_118_farm.jpg);
+}
+
+/*---------------------- */
+#footer-01 {
+	position:absolute;
+	margin-left:0px;
+	margin-top:0px;
+	width:118px;
+	height:118px;
+}
+
+#footer-03 {
+	position:absolute;
+	margin-left:120px;
+	margin-top:0px;
+	width:118px;
+	height:118px;
+}
+
+#footer-05 {
+	position:absolute;
+	margin-left:240px;
+	margin-top:0px;
+	width:118px;
+	height:118px;
+}
+
+#footer-07 {
+	position:absolute;
+	margin-left:360px;
+	margin-top:0px;
+	width:118px;
+	height:118px;
+}
+
+#footer-09 {
+	position:absolute;
+	margin-left:480px;
+	margin-top:0px;
+	width:118px;
+	height:118px;
+	background-color:#666;
+}
+
+#footer-11 {
+	position:absolute;
+	margin-left:600px;
+	margin-top:0px;
+	width:118px;
+	height:118px;
+}
+
+#footer-18 {
+	position:absolute;
+	margin-left:0px;
+	margin-top:120px;
+	width:118px;
+	height:118px;
+}
+
+#footer-19 {
+	position:absolute;
+	margin-left:120px;
+	margin-top:120px;
+	width:118px;
+	height:118px;
+}
+
+#footer-20 {
+	position:absolute;
+	margin-left:240px;
+	margin-top:120px;
+	width:118px;
+	height:118px;
+}
+
+#footer-21 {
+	position:absolute;
+	margin-left:360px;
+	margin-top:120px;
+	width:118px;
+	height:118px;
+}
+
+#footer-22 {
+	position:absolute;
+	margin-left:480px;
+	margin-top:120px;
+	width:118px;
+	height:118px;
+}
+
+#footer-23 {
+	position:absolute;
+	margin-left:600px;
+	margin-top:120px;
+	width:118px;
+	height:118px;
+}
+
+#footer-31 {
+	position:absolute;
+	margin-left:0px;
+	margin-top:240px;
+	width:118px;
+	height:118px;
+}
+
+#footer-32 {
+	position:absolute;
+	margin-left:120px;
+	margin-top:240px;
+	width:118px;
+	height:118px;
+	background-color:#666;
+}
+
+#footer-33 {
+	position:absolute;
+	margin-left:240px;
+	margin-top:240px;
+	width:118px;
+	height:118px;
+}
+
+#footer-34 {
+	position:absolute;
+	margin-left:360px;
+	margin-top:240px;
+	width:118px;
+	height:118px;
+}
+
+#footer-35 {
+	position:absolute;
+	margin-left:480px;
+	margin-top:240px;
+	width:118px;
+	height:118px;
+}
+
+#footer-36 {
+	position:absolute;
+	margin-left:600px;
+	margin-top:240px;
+	width:118px;
+	height:118px;
+}

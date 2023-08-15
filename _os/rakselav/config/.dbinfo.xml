@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbinfo>
+  <servername>localhost</servername>
+  <username>Rakselav_user</username>
+  <password>1q2w3e4r5t</password>
+  <database>Rakselav_db</database>
+  <ttable>transactions</ttable>
+</dbinfo>

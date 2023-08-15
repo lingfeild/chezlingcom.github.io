@@ -1,0 +1,219 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Rakselav | Payment</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700,700i%7CRubik:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/iconfont.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/jquery-ui.structure.min.css">
+  <link rel="stylesheet" href="assets/css/jquery-ui.theme.min.css">
+
+  <link rel="stylesheet" href="assets/css/nav.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/payment.css">
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <section class="header-transparent">
+     <!-- topBar section -->
+    <div class="xs-top-bar topbar-v2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="top-menu">
+              <li>
+                <a href="cart.html">
+                  <span class="item-count">Shopping Cart </span>
+                  <span id='shopping-cart' class="fa-stack fa-1x has-badge">
+                    <i class="icon icon-cart2"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- .row END -->
+      </div><!-- .container END -->
+    </div> <!-- End topBar section -->
+
+    <!-- header section -->
+    <header class="xs-header header-v3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="xs-menus">
+              <div class="nav-header">
+                <a class="nav-brand" href="index.html">
+                  <img src="assets/images/logo.png" alt="">
+                </a>
+                <div class="nav-toggle"></div>
+              </div>
+              <div class="nav-menus-wrapper">
+                <ul class="nav-menu align-to-right">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="#">Managed Hosting</a>
+                    <ul class="nav-dropdown xs-icon-menu">
+                      <li class="single-menu-item">
+                        <a href="hosting-servers.html">Hosting Servers</a>
+                      </li>
+                      <li class="single-menu-item">
+                        <a href="gaming-servers.html">Gaming Servers</a>
+                      </li>
+                      <li class="single-menu-item">
+                        <a href="voice-servers.html">Voice Servers</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Unmanaged Hosting</a>
+                    <ul class="nav-dropdown xs-icon-menu">
+                      <li class="single-menu-item">
+                        <a href="dedicated-servers.html">Dedicated Servers</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div><!-- .row END -->
+      </div><!-- .container END -->
+    </header> <!-- End header section -->
+  </section> <!-- End Nav Bar -->
+
+  <!-- Hero section -->
+  <section class="xs-banner banner-v4 inner-banner contet-to-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="xs-banner-content">
+            <h1 class="banner-sub-title wow fadeInLeft">Check out</h1>
+            <h2 class="banner-title wow fadeInLeft" data-wow-duration="1.5s">Payment</h2>
+          </div><!-- .xs-banner-content END -->
+        </div>
+        <div class="col-lg-6 align-self-end">
+          <div class="inner-welcome-image-group">
+            <img src="assets/images/payment/payment.png" alt="hosting image">
+          </div>
+        </div>
+      </div><!-- .row END -->
+    </div><!-- .container END -->
+
+    <div class="wave_animation_wraper">
+      <div class="wave_animation">
+        <div class="layer wave one" data-depth="0.20">
+          <img src="assets/images/welcome/horizontal-shape.png" alt="horizontal shape">
+        </div>
+        <div class="layer wave two" data-depth="0.6">
+          <img src="assets/images/welcome/vertical-shape-1.png" alt="vrtical shape">
+        </div>
+        <div class="layer wave three" data-depth="0.4">
+          <img src="assets/images/welcome/vertical-shape-2.png" alt="vrtical shape">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="page-title-container" id="buy-now"></div>
+
+  <section class="service-section xs-section-padding">
+    <div class="container">
+      <div class="cart-banner-pay">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-sm-10 col-12">
+          <div id="cartArea"></div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="content" class="service-section xs-section-padding">
+    <div class="container">
+      <div class="cart-banner">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-sm-10 col-12">
+
+          <!-- Payment form, no touch-->
+          <div id='ctl-form-wrap' data-class_form='' data-class_field_wrapper='col-sm-6 form-group'
+            data-class_field_wrapper_error='has-error' data-class_input='input-text full-width' data-class_input_error='error'
+            data-class_select='' data-class_label='' data-class_submit_btn='btn style1' data-label_submit_btn='Checkout'
+            data-class_error_msg='error-msg' data-class_main_error_msg_wrapper='error_wrapper alert'
+            data-class_main_error_msg_title='error_title' data-class_main_error_msg_text='error_text'
+            data-class_success_wrapper='success_wrapper alert' data-class_success_title='success_title'
+            data-class_success_text='' data-class_text_group='text-group' , data-text_group1='Payment Information' ,
+            data-text_group2='Customer Information' , data-text_group3='Contact Information'>
+          </div><!-- END Payment form, no touch-->
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section start -->
+  <footer class="xs-footer-section">
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="copyright-text text-left wow fadeInUp">
+              <p> Modsiwmoce &copy;
+                <script type="text/javascript">
+                  document.write(new Date().getFullYear());
+                </script> | All rights reserved.
+              </p>
+              
+              <p>
+                <a style="color: #1a1f70;"  href="privacy.html">Privacy</a> | <a style="color: #1a1f70;" href="terms.html">Terms of Services</a>
+              </p>
+            </div><!-- .copyright-text END -->
+          </div>
+
+          <div class=" col-md-6">
+            <div class="footer-image">
+            <img src="assets/images/cards.png">
+          </div>
+        </div>
+        </div><!-- .row END -->
+      </div><!-- .container END -->
+    </div><!-- .footer-copyright END -->
+  </footer>
+  <!-- footer section end -->
+
+  <!-- js file  -->
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/nat_form.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/Popper.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.parallax-scroll.js"></script>
+  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+  <script src="assets/js/jquery.parallax.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/cart.js"></script>
+
+</body>
+
+</html>

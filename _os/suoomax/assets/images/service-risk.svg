@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="635.0435" y1="194.626" x2="114.9385" y2="686.1987" gradientTransform="matrix(0.9135 -0.4068 0.4068 0.9135 -139.1278 187.4186)">
+	<stop  offset="0" style="stop-color:#4FF2FC"/>
+	<stop  offset="0.5109" style="stop-color:#76AFFB"/>
+	<stop  offset="1" style="stop-color:#9F6AFA"/>
+</linearGradient>
+<path style="fill:url(#SVGID_1_);" d="M55.241,337.397c107.899-219.267,458.199-292.811,633.3-158.341
+	c102.441,78.668,104.415,213.506,46.963,280.309S631.582,470.761,457.7,541.847c-173.883,71.087-227.14,196.264-332.173,135.229
+	C20.493,616.041-11.916,473.867,55.241,337.397z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="168.4706" y1="631.9635" x2="42.2714" y2="505.7644" gradientTransform="matrix(0.3273 0.9449 0.9449 -0.3273 75.6839 497.7998)">
+	<stop  offset="0" style="stop-color:#1F40C3"/>
+	<stop  offset="1" style="stop-color:#101E85"/>
+</linearGradient>
+<path style="fill:url(#SVGID_2_);" d="M652.113,221.433c-16.661,18.146-28.022,48.421,17.634,56.57s-9.248,27.848-29.306,31.829
+	c-20.058,3.981-40.695,31.432-4.989,64.809s-37.64,52.949-70.636,52.783c-30.496-0.153,15.636,48.546-27.944,53.559
+	c-87.713,10.091-110.638,64.087-98.58,68.308c66.755-32.213,131.171-44.432,156.404-47.055s113.9,7.821,152.393-60.109
+	c38.493-67.929,38.757-139.831-8.234-207.942C691.864,166.074,668.774,203.287,652.113,221.433z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="218.8449" y1="4.7121" x2="76.8402" y2="-137.2926" gradientTransform="matrix(6.123234e-17 -1 1 6.123234e-17 189.627 347.4105)">
+	<stop  offset="0" style="stop-color:#FF8F00"/>
+	<stop  offset="1" style="stop-color:#FFE082"/>
+</linearGradient>
+<circle style="fill:url(#SVGID_3_);" cx="123.518" cy="199.386" r="106.72"/>
+<g>
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="590.326" y1="243.7976" x2="590.326" y2="149.2915">
+		<stop  offset="0" style="stop-color:#7E57C2"/>
+		<stop  offset="1" style="stop-color:#B39DDB"/>
+	</linearGradient>
+	<polygon style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_4_);" points="489.311,257.55 691.341,257.55 
+		691.341,138.305 590.324,211.231 489.311,138.305 	"/>
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="589.599" y1="200.8471" x2="591.1515" y2="321.9379">
+		<stop  offset="0" style="stop-color:#7E57C2"/>
+		<stop  offset="1" style="stop-color:#B39DDB"/>
+	</linearGradient>
+	<polygon style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_5_);" points="489.311,257.55 691.341,257.55 
+		608.756,197.932 571.901,197.932 571.901,197.924 	"/>
+	<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="590.326" y1="193.7817" x2="590.326" y2="140.9985">
+		<stop  offset="0" style="stop-color:#7E57C2"/>
+		<stop  offset="1" style="stop-color:#64B5F6"/>
+	</linearGradient>
+	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_6_);" d="M691.341,138.305l-85.859,61.985
+		c-9.048,6.532-21.263,6.532-30.311,0l-85.859-61.985H691.341z"/>
+</g>
+<g>
+	<g>
+		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="594.1382" y1="281.203" x2="150.1387" y2="534.2517">
+			<stop  offset="0" style="stop-color:#512DA8"/>
+			<stop  offset="1" style="stop-color:#B39DDB"/>
+		</linearGradient>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_7_);" d="M141.073,248.893h455.364
+			c9.307,0,16.922,7.616,16.922,16.922v287.68c0,9.306-7.615,16.922-16.922,16.922H141.073c-9.307,0-16.922-7.616-16.922-16.922
+			v-287.68C124.151,256.51,131.766,248.893,141.073,248.893z"/>
+		<rect x="149.533" y="282.466" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="438.441" height="235.372"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#6A7573;" d="M368.753,272.433c3.399,0,6.154-2.757,6.154-6.155
+			c0-3.398-2.755-6.151-6.154-6.151c-3.398,0-6.151,2.752-6.151,6.151C362.603,269.676,365.355,272.433,368.753,272.433z"/>
+		<rect x="358.352" y="532.491" style="fill-rule:evenodd;clip-rule:evenodd;fill:#6A7573;" width="20.804" height="20.805"/>
+		<polygon style="fill-rule:evenodd;clip-rule:evenodd;fill:#9575CD;" points="124.151,570.418 613.359,570.418 698.327,585.828 
+			39.183,585.828 		"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#5E35B1;" d="M39.183,585.828h659.143v9.488
+			c0,6.724-5.505,12.229-12.231,12.229H51.414c-6.726,0-12.231-5.503-12.231-12.229V585.828z"/>
+		<rect x="302.182" y="592.509" style="fill-rule:evenodd;clip-rule:evenodd;fill:#9575CD;" width="133.143" height="8.488"/>
+	</g>
+</g>
+<g style="opacity:0.5;">
+	<g>
+		<g>
+			<rect x="187.802" y="308.702" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F45556;" width="123.138" height="4.678"/>
+			<rect x="187.802" y="320.266" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="39.458" height="4.678"/>
+			<rect x="187.802" y="331.801" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="63.632" height="4.678"/>
+			<rect x="217.41" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="217.41" y="354.9" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="243.182" y="366.464" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="36.115" height="4.678"/>
+			<rect x="240.538" y="320.266" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="67.293" height="4.678"/>
+			<rect x="317.419" y="320.266" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="32.135" height="4.678"/>
+			<rect x="361.758" y="320.266" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="43.381" height="4.678"/>
+			<rect x="262.068" y="331.801" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.86" height="4.678"/>
+			<rect x="265.874" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="21.675" height="4.678"/>
+			<rect x="265.874" y="354.9" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="37.133" height="4.678"/>
+			<rect x="297.865" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="41.259" height="4.678"/>
+			<rect x="347.376" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFE032;" width="21.646" height="4.678"/>
+			<rect x="378.32" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="26.818" height="4.678"/>
+			<rect x="311.259" y="354.9" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="46.896" height="4.678"/>
+			<rect x="365.158" y="354.9" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="14.005" height="4.678"/>
+			<rect x="289.612" y="366.464" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F45556;" width="26.848" height="4.678"/>
+			<rect x="217.41" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="217.41" y="401.128" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="265.874" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="21.675" height="4.678"/>
+			<rect x="265.874" y="401.128" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="33.443" height="4.678"/>
+			<rect x="297.865" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="31.728" height="4.678"/>
+			<rect x="335.927" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="16.678" height="4.678"/>
+			<rect x="359.753" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="20.63" height="4.678"/>
+			<rect x="331.86" y="401.128" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="37.162" height="4.678"/>
+			<rect x="217.41" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="217.41" y="424.227" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="265.874" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="21.675" height="4.678"/>
+			<rect x="265.874" y="424.227" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="68.077" height="4.678"/>
+			<rect x="297.865" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="41.259" height="4.678"/>
+			<rect x="347.376" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="21.646" height="4.678"/>
+			<rect x="378.32" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="26.818" height="4.678"/>
+			<rect x="342.203" y="424.227" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="38.179" height="4.678"/>
+			<rect x="306.756" y="401.128" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFE032;" width="15.806" height="4.678"/>
+			<rect x="187.802" y="447.326" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="39.458" height="4.678"/>
+			<rect x="187.802" y="458.861" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="63.632" height="4.678"/>
+			<rect x="217.41" y="470.425" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.679"/>
+			<rect x="217.41" y="481.961" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.708"/>
+			<rect x="243.182" y="493.525" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="36.115" height="4.678"/>
+			<rect x="240.538" y="447.326" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F45556;" width="37.337" height="4.678"/>
+			<rect x="287.434" y="447.326" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="18.857" height="4.678"/>
+			<rect x="318.494" y="447.326" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="59.97" height="4.678"/>
+			<rect x="262.068" y="458.861" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.86" height="4.678"/>
+			<rect x="265.874" y="470.425" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="42.305" height="4.679"/>
+			<rect x="265.874" y="481.961" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="28.881" height="4.708"/>
+			<rect x="318.494" y="470.425" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFE032;" width="31.438" height="4.679"/>
+			<rect x="303.007" y="481.961" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="55.148" height="4.708"/>
+			<rect x="365.158" y="481.961" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="14.005" height="4.708"/>
+			<rect x="289.612" y="493.525" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="26.848" height="4.678"/>
+			<rect x="322.416" y="493.525" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="49.977" height="4.678"/>
+			<rect x="379.83" y="493.525" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="14.935" height="4.678"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<rect x="334.003" y="320.266" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="39.458" height="4.678"/>
+			<rect x="334.003" y="331.801" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="63.632" height="4.678"/>
+			<rect x="363.611" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="363.611" y="354.9" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="389.383" y="366.464" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="36.115" height="4.678"/>
+			<rect x="386.739" y="320.266" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="67.293" height="4.678"/>
+			<rect x="463.62" y="320.266" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="32.135" height="4.678"/>
+			<rect x="507.959" y="320.266" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="43.381" height="4.678"/>
+			<rect x="408.269" y="331.801" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.86" height="4.678"/>
+			<rect x="412.075" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="21.675" height="4.678"/>
+			<rect x="412.075" y="354.9" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="37.133" height="4.678"/>
+			<rect x="444.066" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="41.259" height="4.678"/>
+			<rect x="493.577" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFE032;" width="21.646" height="4.678"/>
+			<rect x="524.521" y="343.365" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="26.818" height="4.678"/>
+			<rect x="457.46" y="354.9" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="46.896" height="4.678"/>
+			<rect x="511.358" y="354.9" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="14.005" height="4.678"/>
+			<rect x="435.813" y="366.464" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F45556;" width="26.848" height="4.678"/>
+			<rect x="363.611" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="363.611" y="401.128" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="412.075" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="21.675" height="4.678"/>
+			<rect x="412.075" y="401.128" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="33.443" height="4.678"/>
+			<rect x="444.066" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="31.728" height="4.678"/>
+			<rect x="482.128" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="16.678" height="4.678"/>
+			<rect x="505.954" y="389.564" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="20.63" height="4.678"/>
+			<rect x="478.061" y="401.128" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="37.162" height="4.678"/>
+			<rect x="363.611" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="363.611" y="424.227" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.678"/>
+			<rect x="412.075" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="21.675" height="4.678"/>
+			<rect x="412.075" y="424.227" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="68.077" height="4.678"/>
+			<rect x="444.066" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="41.259" height="4.678"/>
+			<rect x="493.577" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="21.646" height="4.678"/>
+			<rect x="524.521" y="412.663" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="26.818" height="4.678"/>
+			<rect x="488.404" y="424.227" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="38.179" height="4.678"/>
+			<rect x="452.957" y="401.128" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFE032;" width="15.806" height="4.678"/>
+			<rect x="334.003" y="447.326" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="39.458" height="4.678"/>
+			<rect x="334.003" y="458.861" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="63.632" height="4.678"/>
+			<rect x="363.611" y="470.425" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.679"/>
+			<rect x="363.611" y="481.961" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.133" height="4.708"/>
+			<rect x="389.383" y="493.525" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="36.115" height="4.678"/>
+			<rect x="386.739" y="447.326" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F45556;" width="37.337" height="4.678"/>
+			<rect x="433.635" y="447.326" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="18.857" height="4.678"/>
+			<rect x="464.695" y="447.326" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="59.97" height="4.678"/>
+			<rect x="408.269" y="458.861" style="fill-rule:evenodd;clip-rule:evenodd;fill:#23D0F3;" width="37.86" height="4.678"/>
+			<rect x="412.075" y="470.425" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="42.305" height="4.679"/>
+			<rect x="412.075" y="481.961" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="28.881" height="4.708"/>
+			<rect x="464.695" y="470.425" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFE032;" width="31.438" height="4.679"/>
+			<rect x="449.208" y="481.961" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="55.148" height="4.708"/>
+			<rect x="511.358" y="481.961" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="14.005" height="4.708"/>
+			<rect x="435.813" y="493.525" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="26.848" height="4.678"/>
+			<rect x="468.617" y="493.525" style="fill-rule:evenodd;clip-rule:evenodd;fill:#CACACA;" width="49.977" height="4.678"/>
+			<rect x="526.031" y="493.525" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="14.935" height="4.678"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path style="fill:#E65100;" d="M470.034,465.457c4.674,8.15-1.229,18.303-10.623,18.276l-75.992-0.224l-75.993-0.223
+		c-9.395-0.028-15.237-10.216-10.515-18.338l38.19-65.7l38.191-65.699c4.721-8.123,16.465-8.088,21.138,0.062l37.802,65.923
+		L470.034,465.457z"/>
+	<path style="fill:#F6F6F6;" d="M391.617,464.873c0,4.511-3.657,8.169-8.169,8.169c-4.51,0-8.168-3.657-8.168-8.169
+		c0-4.511,3.657-8.169,8.168-8.169C387.96,456.705,391.617,460.362,391.617,464.873"/>
+	<path style="fill:#F6F6F6;" d="M383.449,451.682L383.449,451.682c-3.151,0-5.792-2.479-6.018-5.695l-4.949-70.698
+		c-0.473-6.765,3.91-12.614,9.61-12.614h2.713c5.699,0,10.083,5.849,9.61,12.614l-4.95,70.698
+		C389.241,449.202,386.6,451.682,383.449,451.682"/>
+</g>
+</svg>

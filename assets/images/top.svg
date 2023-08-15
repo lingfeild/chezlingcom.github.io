@@ -1,0 +1,53 @@
+<svg width="547" height="804.98" viewBox="0 0 547 804.98" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient id="a" x1="381.5" y1="229.48" x2="867.21" y2="-276.01" gradientTransform="translate(401.27 911.9) rotate(-114.33)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#6f00bd"/>
+            <stop offset="1" stop-color="#59caff"/>
+        </linearGradient>
+        <linearGradient id="b" x1="687.51" y1="130.16" x2="975.77" y2="-157.43" gradientTransform="translate(401.27 911.9) rotate(-114.33)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff" stop-opacity="0.4"/>
+            <stop offset="0.04" stop-color="#fff" stop-opacity="0.37"/>
+            <stop offset="0.22" stop-color="#fff" stop-opacity="0.24"/>
+            <stop offset="0.41" stop-color="#fff" stop-opacity="0.13"/>
+            <stop offset="0.59" stop-color="#fff" stop-opacity="0.06"/>
+            <stop offset="0.79" stop-color="#fff" stop-opacity="0.01"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="c" x1="656.37" y1="294.63" x2="528.41" y2="114.91" gradientTransform="translate(401.27 911.9) rotate(-114.33)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#a2a2a2"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d" x1="733.97" y1="130.62" x2="397.08" y2="321.35" xlink:href="#a"/>
+        <linearGradient id="e" x1="635.03" y1="115.71" x2="675.28" y2="372.71" gradientTransform="translate(401.27 911.9) rotate(-114.33)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="f" x1="521.9" y1="232.07" x2="575.81" y2="186.83" gradientTransform="translate(-76.02 348.82) rotate(-9.22)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#6f00bd"/>
+            <stop offset="0.77" stop-color="#59caff"/>
+        </linearGradient>
+        <linearGradient id="g" x1="796" y1="93.59" x2="846.64" y2="51.1" gradientTransform="translate(290.36 1016.58) rotate(-90)" xlink:href="#a"/>
+        <linearGradient id="h" x1="248.5" y1="128.79" x2="403.49" y2="-1.27" gradientTransform="translate(290.39 1016.52) rotate(-90)" xlink:href="#a"/>
+        <style>
+            .f{opacity:.2;isolation:isolate}
+        </style>
+    </defs>
+    <title>
+        top
+    </title>
+    <path d="M374.7,210.2C268.6,124.2,321.2,64.3,294.4,0H0V275.8C75.2,348.4,197.1,416,142.8,522.3-6.7,814.3,379.9,900.4,353.2,684.1,326.5,467.1,515.6,324.6,374.7,210.2Z" style="fill:url(#a)"/>
+    <path d="M100.8,10.5A100,100,0,0,1,97.2,0H0V275.8c27.5,26.5,61.1,52.3,90.2,79.6-94.1-97.4,100-158.9,97.1-239.1C185.2,57.8,128.7,77.8,100.8,10.5Z" style="fill:url(#b)"/>
+    <path d="M389.7,457.6s26.6-56.2,12.1-153.4-183.5-49.7-183.5-49.7c7.2,36.7,25.5,43.5,90.5,46.7,89.9,4.4,103.5,63,80.9,156.4" style="fill:url(#c)"/>
+    <path d="M374.7,210.2c-43.1-35-60-65.6-66.6-94h0c16.6,97.5-102.1,84.2-89.8,138.2,10.6,46.6,84.4,23,132.4,34.2,54,12.6,62.3,86.7,39.8,165.8C425.4,356.5,458.6,278.4,374.7,210.2Z" style="fill:url(#d)"/>
+    <path d="M374.7,210.2C268.6,124.2,321.2,64.3,294.4,0H277.7c24.3,95.2-85.4,198.7-59.4,254.5,20.2,43.4,84.3,23,132.4,34.2,54,12.6,62.3,86.7,39.8,165.8C425.4,356.5,458.6,278.4,374.7,210.2Z" style="fill:url(#e)"/>
+    <image class="f" width="95" height="95" transform="translate(452 423)" xlink:href="9932051B978789FA.png"/>
+    <circle cx="499.6" cy="467.3" r="22.7" transform="translate(-41.69 885.6) rotate(-80.78)" style="fill:url(#f)"/>
+    <g style="opacity:.93">
+        <image class="f" width="105" height="105" transform="translate(312.18 147.91) scale(0.99)" xlink:href="9932051B978789FB.png"/>
+        <circle cx="364" cy="196.8" r="27.5" style="fill:url(#g)"/>
+    </g>
+    <g style="opacity:.9">
+        <image class="f" width="178" height="178" transform="translate(266 606)" xlink:href="9932051B978789FD.png"/>
+        <circle cx="355.3" cy="691.9" r="64.4" style="fill:url(#h)"/>
+    </g>
+</svg>

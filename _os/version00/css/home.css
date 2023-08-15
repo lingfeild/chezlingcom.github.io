@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* CSS Document */
+img.bg {
+			/* Set rules to fill background */
+			min-height: 100%;
+			min-width: 1024px;
+			
+			/* Set up proportionate scaling */
+			width: 100%;
+			height: auto;
+			
+			/* Set up positioning */
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+@media screen and (max-width: 1024px){
+		img.bg {
+		left: 50%;
+		margin-left: -512px; }
+		}
+		
+#page-wrap { 
+		position: absolute; 
+		width: 330px;
+		left: 55%;
+		margin: -15px 15px auto;
+		padding: 30px 20px 20px 20px;
+		background: url(../images/home_txt_bg.png);
+		background-repeat:repeat;
+}
+
+/*----------font--------------*/
+
+
+@font-face {
+    font-family: 'Museo500';
+    src: url('../css/type/museo500-regular-webfont.eot');
+    src: url('../css/type/museo500-regular-webfont.eot?#iefix') format('eot'),
+         url('../css/type/museo500-regular-webfont.woff') format('woff'),
+         url('../css/type/museo500-regular-webfont.ttf') format('truetype'),
+         url('../css/type/museo500-regular-webfont.svg#webfont4suacMLo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p  { 	
+		font: 18px Georgia, "Times New Roman", Times, serif;
+		margin: 0 0 10px 0;
+		color:#999999;
+		/*text-indent: 20px;*/ 
+		line-height: 150%;
+		}
+		
+h1 {
+		font: 26px Museo500, Arial, Helvetica, sans-serif;
+		margin:33px 0 18px 0;
+		color:#999999;
+		/*text-indent: 40px;*/ 
+		line-height: 100%;	
+	}
+	
+a:link {
+	color:#999999;
+	text-decoration:underline;
+	}
+a:visited{
+	color:#999999;
+}
+
+a:hover{
+	text-decoration:underline;
+}

@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-position:center;
+	background-position:top;
+	background-color: #000;
+	background-repeat: no-repeat;
+}
+
+#content {
+	position:absolute;
+	top:0px;
+	left:50%;
+	margin-left:-479px;
+}
+
+#logo {
+    position:absolute;
+    left:238px;
+    top:0px;
+    width:238px;
+    height:196px;
+    background-image:url(../images/layout_bg.png);
+    }
+
+/* buttons */
+#btn_print{
+    position:absolute;
+    left:240px;
+    top:196px;
+    width:60px;
+    height:26px;
+	background-color: #985242;
+}
+
+#btn_web {
+    position:absolute;
+    left:300px;
+    top:196px;
+    width:59px;
+    height:26px;
+	background-color: #7e8e7c;
+}
+
+#btn_3d {
+    position:absolute;
+    left:359px;
+    top:196px;
+    width:60px;
+    height:26px;
+	background-color: #82684c;
+}
+
+#btn_photo {
+    position:absolute;
+    left:419px;
+    top:196px;
+    width:59px;
+    height:26px;
+	background-color: #89a75c;
+}
+
+/* -------pattern------- */
+#p00{
+	width:118px;
+    height:118px;
+	background-image:url(../images/layout_bg.png);
+	background-repeat:repeat;
+}
+#p00:hover{
+	background-image:none;
+}
+
+#p01{
+	width:238px;
+    height:238px;
+	background-image:url(../images/01.png);
+	background-repeat:repeat;
+}
+#p01:hover{
+	background-image:none;
+}
+
+#p02{
+	width:238px;
+    height:238px;
+	background-image:url(../images/02.png);
+	background-repeat:repeat;
+}
+#p02:hover{
+	background-image:none;
+}
+
+#p03{
+	width:238px;
+    height:238px;
+	background-image:url(../images/03.png);
+	background-repeat:repeat;
+}
+#p03:hover{
+	background-image:none;
+}
+
+#p04{
+	width:238px;
+    height:238px;
+	background-image:url(../images/04.png);
+	background-repeat:repeat;
+}
+#p04:hover{
+	background-image:none;
+}
+
+#p05{
+	width:238px;
+    height:238px;
+	background-image:url(../images/05.png);
+	background-repeat:repeat;
+}
+#p05:hover{
+	background-image:none;
+}
+
+#p06{
+	width:238px;
+    height:238px;
+	background-image:url(../images/06.png);
+	background-repeat:repeat;
+}
+#p06:hover{
+	background-image:none;
+}
+
+#p07{
+	width:238px;
+    height:238px;
+	background-image:url(../images/07.png);
+	background-repeat:repeat;
+}
+#p07:hover{
+	background-image:none;
+}
+
+#p08{
+	width:238px;
+    height:238px;
+	background-image:url(../images/08.png);
+	background-repeat:repeat;
+}
+#p08:hover{
+	background-image:none;
+}
+
+#p09{
+	width:238px;
+    height:238px;
+	background-image:url(../images/09.png);
+	background-repeat:repeat;
+}
+#p09:hover{
+	background-image:none;
+}
+
+#p10{
+	width:238px;
+    height:238px;
+	background-image:url(../images/10.png);
+	background-repeat:repeat;
+}
+#p10:hover{
+	background-image:none;
+}
+
+#p11{
+	width:238px;
+    height:238px;
+	background-image:url(../images/11.png);
+	background-repeat:repeat;
+}
+#p11:hover{
+	background-image:none;
+}
+
+#p12{
+	width:238px;
+    height:238px;
+	background-image:url(../images/12.png);
+	background-repeat:repeat;
+}
+#p12:hover{
+	background-image:none;
+}
+
+#p13{
+	width:238px;
+    height:238px;
+	background-image:url(../images/13.png);
+	background-repeat:repeat;
+}
+#p13:hover{
+	background-image:none;
+}
+
+#p14{
+	width:238px;
+    height:238px;
+	background-image:url(../images/14.png);
+	background-repeat:repeat;
+}
+#p14:hover{
+	background-image:none;
+}
+
+#p15{
+	width:238px;
+    height:238px;
+	background-image:url(../images/15.png);
+	background-repeat:repeat;
+}
+#p15:hover{
+	background-image:none;
+}
+
+#p16{
+	width:238px;
+    height:238px;
+	background-image:url(../images/16.png);
+	background-repeat:repeat;
+}
+#p16:hover{
+	background-image:none;
+}
+
+#p17{
+	width:238px;
+    height:238px;
+	background-image:url(../images/17.png);
+	background-repeat:repeat;
+}
+#p17:hover{
+	background-image:none;
+}
+
+/* ------links------ */
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+a.mail{
+	color: white;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* ------Font------ */
+@font-face {
+    font-family: 'Museo500';
+    src: url('../css/type/museo500-regular-webfont.eot');
+    src: url('../css/type/museo500-regular-webfont.eot?#iefix') format('eot'),
+         url('../css/type/museo500-regular-webfont.woff') format('woff'),
+         url('../css/type/museo500-regular-webfont.ttf') format('truetype'),
+         url('../css/type/museo500-regular-webfont.svg#webfont4suacMLo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#btn{
+  font-family: 'Museo500', Arial, sans-serif;
+  font-size: 13px;
+  color: black;
+  margin-top: 6px;
+  text-align: center;
+}
+
+#ttl{
+	position:absolute;
+	top: 30px;
+	left: 21px;
+	font-family:'Museo500', Arial, Helvetica, sans-serif;
+	font-size: 26px;
+}
+
+#prgrph{
+	position:absolute;
+	top: 105px;
+	left:20px;
+	font-family:'Museo500', Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFFFFF;
+	text-align:left;
+}
+
+h1, h2{
+	font-family: 'Museo500', Arial, sans-serif;
+	color: white;
+	text-align:center;
+	margin-top: 40px;
+}
+
+h1{
+	font-size:18px;
+	top: 30px;
+	font-family: 'Museo500', Arial, sans-serif;
+}
+
+h2{
+    font-size: 14px;
+}
+
+h3{
+	font-size:18px;
+	text-align:center;
+	font-family: 'Museo500', Arial, sans-serif;
+}
+
+#ci{
+	position:absolute;
+	font-size:14px;
+	margin-top:30px;
+	margin-left:17px;
+	font-family: 'Museo500', Arial, sans-serif;
+	color:#CCC;
+}
+
+#ct{
+	position:absolute;
+	font-size:11px;
+	margin-top:5px;
+	margin-left:-12px;
+	text-align:center;
+	font-family: 'Museo500', Arial, sans-serif;
+	color:#CCC;
+}

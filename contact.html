@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title> Chezling.com - Contact</title>
+
+  <!-- Meta Data -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Chezling" />
+  <meta name="description" content="Chezling" />
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/icons/icomoon.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/all.css" />
+</head>
+
+<body class="bg-triangles">
+  <!-- Preloader -->
+  <div class="preloader">
+    <img id="animLogo" src="assets/images/logo.svg">
+    <div class="screenloader" style="height:100vh; position: fixed; width:100vw; top:0; left:0; z-index:1;">
+      <div class="introAnim animA"></div>
+      <div class="introAnim animB"></div>
+      <div class="introAnim animC"></div>
+      <div class="introAnim animD"></div>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="container gutter-top">
+      <div class="row sticky-parent">
+        <!-- Sidebar -->
+        <aside class="col-12 col-md-12 col-xl-3">
+          <div class="sidebar box pb-0 sticky-column">
+            <div class="text-center">
+              <a href="index.html"><img src="assets/img/avatar.jpg" class='avatar-photo' alt="Avatar"></a>
+            </div>
+
+            <div class="text-center">
+              <h3 class="title title--h3 sidebar__user-name">Ling Fei MA</h3>
+              <div class="badge badge--gray">
+                <div>UI/UX Designer</div>
+                <div class="dash"></div>
+                <div>Front End Developer</div>
+              </div>
+
+              <!-- Social -->
+              <div class="social">
+                <a class="social__link" href="https://www.linkedin.com/in/ling-fei-ma-27665316/"><i
+                    class="fab fa-linkedin-in"></i></a>
+                <a class="social__link" href="https://github.com/ChezLing"><i class="fab fa-github"></i></a>
+                <a class="social__link" href="https://codepen.io/chezling"><i class="fab fa-codepen"></i></a>
+              </div>
+            </div>
+
+            <div class="sidebar__info box-inner box-inner--rounded">
+              <ul class="contacts-block">
+                <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="E-mail">
+                  <i class="font-icon icon-envelope"></i>chezling.com@gmail.com
+                </li>
+                <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Phone">
+                  <i class="font-icon icon-phone"></i>+1 (514) 513-6726
+                </li>
+                <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Skype">
+                  <a href="skype:lingfeild?call"><i class="font-icon icon-skype"></i>Lingfei MA</a>
+                </li>
+              </ul>
+
+              <!-- <a class="btn btn--blue-gradient" href="cv/ling_cv_2019.pdf" target="_blank"><i class="font-icon icon-download"></i> Download CV</a> -->
+            </div>
+          </div>
+        </aside>
+
+        <!-- Content -->
+        <div class="col-12 col-md-12 col-xl-9">
+          <div class="box">
+            <!-- Menu -->
+            <div class="circle-menu">
+              <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="inner-menu js-menu">
+              <ul class="nav">
+                <li class="nav__item"><a href="index.html">About</a></li>
+                <li class="nav__item"><a href="skill.html">Skills</a></li>
+                <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
+                <li class="nav__item"><a class="active" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <!-- About -->
+            <div class="pb-2">
+              <h1 class="title title--h1 title__separate">Contact</h1>
+            </div>
+
+            <!-- Contact -->
+
+            <h2 class="title title--h3">Feel Free To Contact</h2>
+
+            <form id="contact-form" name="contact-form" class="contact-form" method="post">
+              <div class="row">
+                <div class="form-group col-12 col-md-6" id="val_name" data-validate="Name is required">
+                  <i class="font-icon icon-user"></i>
+                  <input type="text" class="input input__icon form-control" id="name" name="name"
+                    placeholder="Your Name ">
+                </div>
+
+                <div class="form-group col-12 col-md-6" id="val_email" data-validate="Email is required">
+                  <i class="font-icon icon-envelope"></i>
+                  <input class="input input__icon form-control" id="email" name="email" placeholder="Email "
+                    type="email">
+                </div>
+
+                <div class="form-group col-12" id="val_subject" data-validate="Subject is required">
+                  <i class="font-icon icon-check"></i>
+                  <input class="input input__icon form-control" id="subject" name="subject" placeholder="Subject "
+                    type="text">
+                </div>
+
+                <div class="form-group col-12 col-md-12" id="val_message" data-validate="Message is required">
+                  <textarea class="textarea form-control" id="message" name="message" placeholder="Your Message "
+                    rows="4"></textarea>
+                </div>
+                <!--VALIDATION-->
+                <div class="form-group col-lg-2 col-md-3 col-sm-3 col-4">
+                  <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                  <label class="verificationlabel mathProblem" style="display:inline-block;">
+                    <div id="test" oncopy="return false" oncut="return false" onpaste="return false"></div>
+                  </label>
+                </div>
+                <div class="form-group col-lg-10 col-md-9 col-sm-9 col-8">
+                  <div class="" id="val_sum" data-validate="Security check is required">
+                    <input class="input input100 form-control" name="verification" id="verification" type="input"
+                      placeholder="Please enter the letters the left " style="width: 100%" oncopy="return false"
+                      oncut="return false" onpaste="return false">
+                  </div>
+                </div>
+                <div class="form-group" style="display:none">
+                  <input id="email2" type="email" placeholder="Enter email" name="email2">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
+                  <div id="validator-contact" class="hidden"></div>
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2 text-right">
+                  <button id="contact-submit" type="submit" class="btn">
+                    <i class="font-icon icon-send"></i>Send
+                    Email
+                  </button>
+                  <p class="form-messege"></p>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Footer -->
+          <footer class="footer">© <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> Chezling</footer>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="back-to-top"></div>
+
+  <!-- JavaScripts -->
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/contact.js"></script>
+
+  <script type="text/javascript">
+    var sum = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    for (var i = 0; i < 5; i++) {
+      sum += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+    document.getElementById("test").innerHTML = sum;
+  </script>
+
+</body>
+
+</html>

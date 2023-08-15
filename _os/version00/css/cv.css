@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*body{
+	background-image:url(./test/grid.jpg);
+	background-repeat:repeat;
+}*/
+
+@font-face {
+    font-family: "ScriptinaRegular";
+    src: url("../css/type/scriptin-webfont.eot");
+    src: url("../css/type/scriptin-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../css/type/scriptin-webfont.woff") format("woff"),
+         url("../css/type/scriptin-webfont.ttf") format("truetype"),
+         url("../css/type/scriptin-webfont.svg#ScriptinaRegular") format("svg");
+}
+
+@font-face {
+    font-family: "ChunkFiveRegular";
+    src: url("../css/type/chunk-webfont.eot");
+    src: url("../css/type/chunk-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../css/type/chunk-webfont.woff") format("woff"),
+         url("../css/type/chunk-webfont.ttf") format("truetype"),
+         url("../css/type/chunk-webfont.svg#ChunkFiveRegular") format("svg");
+}
+
+@font-face {
+    font-family: "Museo500";
+    src: url("../css/type/museo500-regular-webfont.eot");
+    src: url("../css/type/museo500-regular-webfont.eot?#iefix") format("eot"),
+         url("../css/type/museo500-regular-webfont.ttf") format("truetype"),
+		 url("../css/type/museo500-regular-webfont.woff") format("woff"),
+         url("../css/type/museo500-regular-webfont.svg#webfont4suacMLo") format("svg");
+}
+
+/* ---------------------- */
+#div_main{
+	position:absolute;
+	left:50%;
+}
+
+#ling{
+	font-family: "ScriptinaRegular", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:105px;
+	color:#528577;
+}
+#div_ling{
+	position:absolute;
+	margin-left:-195px;
+	margin-top:-60px;
+	width: 239px;
+}
+
+#fm{
+	font-family: "ChunkFiveRegular", Verdana, Geneva, sans-serif;
+	font-size:65px;
+	color:#764401;
+}
+#div_fm{
+	position:absolute;
+	margin-left:-190px;
+	margin-top:177px;
+	width: 268px;
+}
+
+p{
+	font-family: "Lucida Grande", Helvetica, Verdana, Geneva, sans-serif;
+	font-size:13px;
+}
+#skl{
+	font-family: "Lucida Grande", Helvetica, Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#div_contact{
+	position:absolute;
+	margin-left:90px;
+	margin-top: 142px;
+	width: 304px;
+}
+
+#div_boldline{
+	position:absolute;
+	border-top: solid 2px;
+	border-bottom border-left border-right:0;
+	margin-left: -188px;
+	margin-top:257px;
+	width: 538px;
+}
+#div_line01{
+	position:absolute;
+	border-top: solid 1px;
+	border-bottom border-left border-right:0;
+	margin-left: -188px;
+	margin-top:334px;
+	width: 538px;
+}
+#div_line02{
+	position:absolute;
+	border-top: solid 1px;
+
+	border-bottom border-left border-right:0;
+	margin-left: -188px;
+	margin-top:644px;
+	width: 538px;
+}
+#div_line03{
+	position:absolute;
+	border-top: solid 1px;
+
+	border-bottom border-left border-right:0;
+	margin-left: -188px;
+	margin-top:788px;
+	width: 538px;
+}
+#div_line04{
+	position:absolute;
+	border-top: solid 1px;
+	border-bottom border-left border-right:0;
+	margin-left: -188px;
+	margin-top:989px;
+	width: 538px;
+}
+
+#head{
+	font-family:"ChunkFiveRegular", Verdana, Geneva, sans-serif;
+	font-size::24px;
+}
+#head_obj{
+	position:absolute;
+	margin-left:-352px;
+	margin-top:275px;
+}
+#head_emp{
+	position:absolute;
+	margin-left:-352px;
+	margin-top:352px;
+	width: 124px;
+}
+#head_edu{
+	position:absolute;
+	margin-left:-352px;
+	margin-top:665px;
+	width: 124px;
+}
+#head_skl{
+	position:absolute;
+	margin-left:-352px;
+	margin-top:806px;
+	width: 124px;
+}
+#head_ref{
+	position:absolute;
+	margin-left:-352px;
+	margin-top:1007px;
+	width: 124px;
+}
+
+#obj{
+	position:absolute;
+	margin-left:-188px;
+	margin-top:263px;
+	line-height:100%;
+	width: 250px;
+}
+#txt{
+	font-family: "Lucida Grande", Helvetica, Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+#emp01{
+	position:absolute;
+	margin-left:-188px;
+	margin-top:342px;
+	width:250px;
+}
+#emp02{
+	position:absolute;
+	margin-left:90px;
+	margin-top:341px;
+	width:262px;
+}
+#edu01{
+	position:absolute;
+	margin-left:-188px;
+	margin-top:653px;
+	width:256px;
+}
+#edu02{
+	position:absolute;
+	margin-left:90px;
+	margin-top:652px;
+	width:295px;
+}
+#skl01{
+	position:absolute;
+	margin-left:-188px;
+	margin-top:806px;
+	width:256px;
+}
+#skl02{
+	position:absolute;
+	margin-left:-188px;
+	margin-top:824px;
+	width:127px;
+}
+#skl03{
+	position:absolute;
+	margin-left:-50px;
+	margin-top:824px;
+	width:119px;
+}
+#skl04{
+	position:absolute;
+	margin-left:90px;
+	margin-top:824px;
+	width:119px;
+}
+#ref{
+	position:absolute;
+	margin-left:-188px;
+	margin-top:995px;
+	width:262px;
+}
+#btm{
+	position:absolute;
+	top:1060px;
+}

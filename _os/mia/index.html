@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>1st Grade Math</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/creative.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+</head>
+
+
+<body id="page-top">
+  <header id="header" class="masthead text-center text-white d-flex"
+    style="background: center center / cover no-repeat #000;">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h1 class="text-uppercase">
+            <strong>MIA | 1st Grade Math</strong>
+          </h1>
+        </div>
+
+        <!-- Main -->
+        <div class="col-lg-6 col-md-6 col-sm-12 mx-auto main_div main_div_question">
+          <!-- question -->
+          <h1 id="question" class="">
+            <span id="a"></span>
+            <span id="c_sign"></span>
+            <span id="b"></span>
+            =
+            <span id="c"></span>
+          </h1>
+          <!-- buttons: go | next -->
+          <div class="btn2">
+            <button id="go_btn" onclick="test()" class="go_btn">GO | ALLEZ</button>
+            <button id="next_btn" onclick="switch_btn()" class="next_btn" style="display: none;">Bravo! Next</button>
+          </div>
+        </div>
+
+        <!-- number pad -->
+        <div class="col-lg-6 col-md-6 col-sm-12 mx-auto main_div main_div_pad">
+          <div class="row">
+            <div class="number_button" onclick="number_write(1);">1</div>
+            <div class="number_button" onclick="number_write(2);">2</div>
+            <div class="number_button" onclick="number_write(3);">3</div>
+          </div>
+          <div class="row">
+            <div class="number_button" onclick="number_write(4);">4</div>
+            <div class="number_button" onclick="number_write(5);">5</div>
+            <div class="number_button" onclick="number_write(6);">6</div>
+          </div>
+          <div class="row">
+            <div class="number_button" onclick="number_write(7);">7</div>
+            <div class="number_button" onclick="number_write(8);">8</div>
+            <div class="number_button" onclick="number_write(9);">9</div>
+          </div>
+          <div class="row">
+            <div class="number_button" onclick="number_write(0);">0</div>
+            <div class="number_button c" onclick="number_c();">C</div>
+          </div>
+        </div>
+        <!-- //Main -->
+      </div>
+    </div>
+  </header>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/math.js"></script>
+
+</body>
+
+</html>
